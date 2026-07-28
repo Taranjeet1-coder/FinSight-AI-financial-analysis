@@ -68,7 +68,7 @@ def create_presentation():
 
     # Slide 1
     add_title_slide(
-        "Comparative Financial Analysis of Bitcoin, Gold, and S&P 500",
+        "Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence",
         "An Advanced Exploratory Data Analysis & Machine Learning Approach\n\nTeam Members: [Names]\nGuide: [Guide Name]\nUniversity: [University Name]"
     )
 

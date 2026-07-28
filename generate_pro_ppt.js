@@ -60,7 +60,7 @@ function notes(s, t) { s.addNotes(t); }
   s.addShape(pptx.ShapeType.ellipse, { x:11.1,y:-0.4,w:2.8,h:2.8, fill:{type:"none"}, line:{color:T.gold,pt:0.8} });
 
   s.addText("MBA / FINANCE FINAL PROJECT  ·  2025", { x:0.6,y:0.65,w:10,h:0.32, fontSize:9.5, color:T.gold, bold:true, charSpacing:3, fontFace:F.head });
-  s.addText("Comparative Financial Analysis", { x:0.6,y:1.05,w:10,h:0.9, fontSize:40, color:T.white, bold:true, fontFace:F.head });
+  s.addText("Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence", { x:0.6,y:1.05,w:10,h:0.9, fontSize:40, color:T.white, bold:true, fontFace:F.head });
   s.addText("Bitcoin · Gold · S&P 500", { x:0.6,y:1.9,w:10,h:0.75, fontSize:34, color:T.gold, bold:true, fontFace:F.head });
   s.addShape(pptx.ShapeType.rect, { x:0.6,y:2.78,w:5,h:0.04, fill:{color:T.gold} });
   s.addText("Time Series Modeling  |  Volatility Analysis  |  Portfolio Optimization", { x:0.6,y:2.95,w:10,h:0.38, fontSize:13.5, color:T.silver, italic:true, fontFace:F.body });
@@ -792,7 +792,7 @@ function notes(s, t) { s.addNotes(t); }
   s.addText("Thank You",{x:0.6,y:1.5,w:9,h:1.2,fontSize:58,color:T.white,bold:true,fontFace:F.head});
   s.addText("Questions & Discussion",{x:0.6,y:2.8,w:9,h:0.65,fontSize:26,color:T.gold,fontFace:F.head});
   s.addShape(pptx.ShapeType.rect,{x:0.6,y:3.55,w:5,h:0.05,fill:{color:T.gold}});
-  s.addText("Comparative Financial Analysis of Bitcoin · Gold · S&P 500\nTime Series Modeling  |  Volatility Analysis  |  Portfolio Optimization",{
+  s.addText("Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence",{
     x:0.6,y:3.72,w:9,h:0.65,fontSize:13.5,color:T.silver,fontFace:F.body,italic:true
   });
 

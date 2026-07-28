@@ -10,7 +10,7 @@ const WHITE = "FFFFFF";
 // Title Slide
 let slide1 = pptx.addSlide();
 slide1.background = { color: NAVY };
-slide1.addText("Comparative Financial Analysis of Bitcoin, Gold, and S&P 500", {
+slide1.addText("Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence", {
     x: 1, y: 1.5, w: 8, h: 1.5, fontSize: 36, color: WHITE, bold: true, align: "center"
 });
 slide1.addText("An Advanced Exploratory Data Analysis & Machine Learning Approach\n\nTeam Members: [Names]\nGuide: [Guide Name]\nUniversity: [University Name]", {

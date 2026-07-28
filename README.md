@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Macro-Financial Dynamics & Crypto Asset Modeling
+# 🌐 Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence
 ### *An Enterprise-Grade Quantitative Intelligence & Algorithmic Allocation Engine*
 
 [![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue.svg?style=for-the-badge&logo=python&logoColor=white)]()
@@ -370,7 +370,7 @@ If you utilize this framework or its empirical findings in your academic researc
 ```bibtex
 @software{datanomics2026,
   author = {Singh, Taranjeet},
-  title = {Macro-Financial Dynamics and Crypto Asset Modeling Engine},
+  title = {Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence},
   year = {2026},
   publisher = {Data-Nomics},
   url = {https://github.com/data-nomics/macro-crypto-dynamics}

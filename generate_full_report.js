@@ -49,7 +49,7 @@ const doc = new Document({
       
       center("LOVELY PROFESSIONAL UNIVERSITY", 36, true),
       new Paragraph({ spacing: { before: 400, after: 400 } }),
-      center("Macro-Financial Dynamics and Crypto Asset Modeling", 40, true),
+      center("Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence", 40, true),
       center("A Project Report Submitted for Academic Evaluation", 28, false),
       new Paragraph({ spacing: { before: 800, after: 800 } }),
       center("Team Name: Data-Nomics", 28, true),

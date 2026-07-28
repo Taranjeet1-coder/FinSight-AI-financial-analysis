@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 # -----------------------------
 # CONFIG
 # -----------------------------
-st.set_page_config(page_title="Financial Dashboard", layout="wide")
+st.set_page_config(page_title="Financial Intelligence System", layout="wide")
 
 # -----------------------------
 # THEME
@@ -24,7 +24,7 @@ body { background-color: #0e1117; color: white; }
 # -----------------------------
 # HEADER
 # -----------------------------
-st.title("🚀 Financial Intelligence Dashboard")
+st.title("🚀 Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence")
 st.markdown("### BTC vs Traditional Assets | Portfolio | ML Regime Detection")
 
 # -----------------------------

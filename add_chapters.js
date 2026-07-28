@@ -250,7 +250,7 @@ const children = [];
 // ── COVER FOR CONTINUATION ──────────────────────────────
 children.push(
   new Paragraph({
-    children: [new TextRun({ text: "COMPARATIVE FINANCIAL ANALYSIS", size: 48, bold: true, color: C.white, font: "Calibri" })],
+    children: [new TextRun({ text: "FINANCIAL INTELLIGENCE SYSTEM FOR COMPARATIVE ANALYSIS OF BITCOIN, GOLD, AND THE S&P 500 USING ARTIFICIAL INTELLIGENCE", size: 48, bold: true, color: C.white, font: "Calibri" })],
     alignment: AlignmentType.CENTER,
     shading: { fill: C.navy, type: ShadingType.SOLID },
     spacing: { before: 400, after: 120 },
