@@ -157,15 +157,12 @@ graph TD
 An enterprise-grade repository layout enforcing clean separation of concerns.
 
 ```text
-macro-crypto-dynamics/
+FinSight-AI-financial-analysis/
 ├── Datacollection.ipynb       # Raw data ingestion, API calls, and initial formatting
 ├── Cleaned_dataset.csv        # Preprocessed, aligned, and stationarity-adjusted time-series data
 ├── analysis1.ipynb            # Core Jupyter Notebook (EDA, GARCH, Random Forest, Fuzzy Logic, GA)
 ├── app.py                     # Streamlit Live Dashboard application
-├── PROJECT_REPORT_FINAL.docx  # Comprehensive 20+ page academic and technical project report
-├── PROJECT_REPORT_FINAL.pdf   # Print-ready compiled version of the project report
 ├── Data-Nomics.pbix           # Interactive Power BI visualizations and macro dashboards
-├── Data-Nomics.pptx           # Executive summary and academic presentation deck
 ├── Project_Report.html        # Interactive HTML-based report with Chart.js visualizations
 └── README.md                  # Project documentation and engineering overview
 ```
