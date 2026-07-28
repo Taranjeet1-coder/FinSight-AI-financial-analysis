@@ -122,7 +122,8 @@ FinSight-AI-financial-analysis/
 │   ├── dashboard_tab4_portfolio.png    # Dashboard 3D Portfolio Tab
 │   └── dashboard_tab5_strategy.png     # Dashboard Strategy Tab
 ├── dashboard/
-│   └── app.py                 # Streamlit Live Dashboard application
+│   ├── app.py                 # Streamlit Live Dashboard application
+│   └── Data-Nomics.pbix       # Interactive Power BI visualizations and macro dashboards
 ├── notebooks/
 │   ├── Datacollection.ipynb   # Raw data ingestion, API calls, and initial formatting
 │   ├── analysis.ipynb         # Initial EDA and Exploratory Data Analysis
@@ -130,8 +131,7 @@ FinSight-AI-financial-analysis/
 ├── data/
 │   └── Cleaned_dataset.csv    # Preprocessed, aligned, and stationarity-adjusted time-series data
 └── reports/
-    ├── Data-Nomics.pbix       # Interactive Power BI visualizations and macro dashboards
-    └── analysis1_...pdf       # Exported static analysis report
+    └── PROJECT_REPORT_FINAL.pdf # Comprehensive 20+ page academic and technical project report
 ```
 
 ---
