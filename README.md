@@ -32,19 +32,27 @@ This repository represents a state-of-the-art **Algorithmic Financial Intelligen
 
 ---
 
-## 📸 Project Visualizations
+## 📸 Dashboard Modules (5 Tabs)
 
-### 1️⃣ Live Streamlit Intelligence Dashboard
-![Financial Dashboard](assets/dashboard_ui.png)
-> *The interactive Streamlit intelligence dashboard providing live market context, volatility analysis, correlation matrices, and AI-driven insights.*
+### 1️⃣ Market Tab: Asset Growth & Returns
+![Dashboard Market](assets/dashboard_tab1_market.png)
+> *Live market context with normalized asset growth line charts and log returns distribution histograms for Bitcoin, S&P 500, and Gold.*
 
-### 2️⃣ Machine Learning Regime Classification
-![ML Regime Classification](assets/ml_regime_classification.png)
-> *Random Forest ensemble segmenting the financial time-series into Bull, Bear, and Sideways macroeconomic regimes based on volatility and momentum.*
+### 2️⃣ Risk Tab: Volatility Metrics
+![Dashboard Risk](assets/dashboard_tab2_risk.png)
+> *Deep-dive into risk analytics, featuring annualized volatility bar charts and a 30-day rolling volatility trend line to track macroeconomic panic.*
 
-### 3️⃣ 3D Portfolio Optimization
-![3D Portfolio Optimization](assets/portfolio_optimization_3d.png)
-> *Mapping the Efficient Frontier using 3D scatter plots. The axes represent Expected Return and Risk (Volatility), with the color gradient highlighting the optimal Sharpe Ratio.*
+### 3️⃣ Correlation Tab: Asset Interdependency
+![Dashboard Correlation](assets/dashboard_tab3_correlation.png)
+> *Interactive heatmap matrix tracking Pearson correlation coefficients, empirically evaluating Bitcoin's role as a non-correlated diversification asset.*
+
+### 4️⃣ Portfolio Tab: 3D Efficient Frontier
+![Dashboard 3D Portfolio](assets/dashboard_tab4_portfolio.png)
+> *Monte Carlo simulation of 1,200 random portfolios plotted in 3D. The Z-axis and color gradient highlight the optimal Sharpe Ratio allocation.*
+
+### 5️⃣ Strategy Tab: Algorithmic Equity Curve
+![Dashboard Strategy](assets/dashboard_tab5_strategy.png)
+> *Backtested performance of a purely algorithmic trading strategy driven by VIX thresholds, comparing its equity curve against passive holding.*
 
 ---
 
@@ -108,9 +116,11 @@ FinSight-AI-financial-analysis/
 ├── README.md                  # Project documentation and engineering overview
 ├── requirements.txt           # Python package dependencies
 ├── assets/
-│   ├── dashboard_ui.png       # Dashboard screenshot
-│   ├── ml_regime_classification.png  # ML classification visualization
-│   └── portfolio_optimization_3d.png # 3D Portfolio optimization plot
+│   ├── dashboard_tab1_market.png       # Dashboard Market Tab
+│   ├── dashboard_tab2_risk.png         # Dashboard Risk Tab
+│   ├── dashboard_tab3_correlation.png  # Dashboard Correlation Tab
+│   ├── dashboard_tab4_portfolio.png    # Dashboard 3D Portfolio Tab
+│   └── dashboard_tab5_strategy.png     # Dashboard Strategy Tab
 ├── dashboard/
 │   └── app.py                 # Streamlit Live Dashboard application
 ├── notebooks/
