@@ -32,10 +32,19 @@ This repository represents a state-of-the-art **Algorithmic Financial Intelligen
 
 ---
 
-## 📸 Application Screenshot
+## 📸 Project Visualizations
 
+### 1️⃣ Live Streamlit Intelligence Dashboard
 ![Financial Dashboard](assets/dashboard_ui.png)
 > *The interactive Streamlit intelligence dashboard providing live market context, volatility analysis, correlation matrices, and AI-driven insights.*
+
+### 2️⃣ Machine Learning Regime Classification
+![ML Regime Classification](assets/ml_regime_classification.png)
+> *Random Forest ensemble segmenting the financial time-series into Bull, Bear, and Sideways macroeconomic regimes based on volatility and momentum.*
+
+### 3️⃣ 3D Portfolio Optimization
+![3D Portfolio Optimization](assets/portfolio_optimization_3d.png)
+> *Mapping the Efficient Frontier using 3D scatter plots. The axes represent Expected Return and Risk (Volatility), with the color gradient highlighting the optimal Sharpe Ratio.*
 
 ---
 
@@ -99,7 +108,9 @@ FinSight-AI-financial-analysis/
 ├── README.md                  # Project documentation and engineering overview
 ├── requirements.txt           # Python package dependencies
 ├── assets/
-│   └── dashboard_ui.png       # Dashboard screenshot
+│   ├── dashboard_ui.png       # Dashboard screenshot
+│   ├── ml_regime_classification.png  # ML classification visualization
+│   └── portfolio_optimization_3d.png # 3D Portfolio optimization plot
 ├── dashboard/
 │   └── app.py                 # Streamlit Live Dashboard application
 ├── notebooks/
