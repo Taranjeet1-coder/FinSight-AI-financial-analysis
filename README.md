@@ -158,13 +158,18 @@ An enterprise-grade repository layout enforcing clean separation of concerns.
 
 ```text
 FinSight-AI-financial-analysis/
-├── Datacollection.ipynb       # Raw data ingestion, API calls, and initial formatting
-├── Cleaned_dataset.csv        # Preprocessed, aligned, and stationarity-adjusted time-series data
-├── analysis1.ipynb            # Core Jupyter Notebook (EDA, GARCH, Random Forest, Fuzzy Logic, GA)
-├── app.py                     # Streamlit Live Dashboard application
-├── Data-Nomics.pbix           # Interactive Power BI visualizations and macro dashboards
-├── Project_Report.html        # Interactive HTML-based report with Chart.js visualizations
-└── README.md                  # Project documentation and engineering overview
+├── README.md                  # Project documentation and engineering overview
+├── dashboard/
+│   └── app.py                 # Streamlit Live Dashboard application
+├── notebooks/
+│   ├── Datacollection.ipynb   # Raw data ingestion, API calls, and initial formatting
+│   ├── analysis.ipynb         # Initial EDA and Exploratory Data Analysis
+│   └── analysis1.ipynb        # Core Jupyter Notebook (GARCH, Random Forest, Fuzzy Logic, GA)
+├── data/
+│   └── Cleaned_dataset.csv    # Preprocessed, aligned, and stationarity-adjusted time-series data
+└── reports/
+    ├── Data-Nomics.pbix       # Interactive Power BI visualizations and macro dashboards
+    └── analysis1_...pdf       # Exported static analysis report
 ```
 
 ---
@@ -176,8 +181,8 @@ Ensure Docker and Docker Compose are installed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/data-nomics/macro-crypto-dynamics.git
-cd macro-crypto-dynamics
+git clone https://github.com/Taranjeet1-coder/FinSight-AI-financial-analysis.git
+cd FinSight-AI-financial-analysis
 
 # Build and run the stack in detached mode
 docker-compose up --build -d
@@ -370,7 +375,7 @@ If you utilize this framework or its empirical findings in your academic researc
   title = {Financial Intelligence System for Comparative Analysis of Bitcoin, Gold, and the S&P 500 using Artificial Intelligence},
   year = {2026},
   publisher = {Data-Nomics},
-  url = {https://github.com/data-nomics/macro-crypto-dynamics}
+  url = {https://github.com/Taranjeet1-coder/FinSight-AI-financial-analysis}
 }
 ```
 
@@ -378,5 +383,5 @@ If you utilize this framework or its empirical findings in your academic researc
 <div align="center">
   <b>Built with precision by Data-Nomics</b><br>
   <i>Data-Driven Truth in a Noise-Driven Market.</i><br><br>
-  <a href="mailto:contact@datanomics.app">Contact</a> • <a href="https://github.com/data-nomics/macro-crypto-dynamics/issues">Support</a> • <a href="https://datanomics.app/docs">Documentation</a>
+  <a href="mailto:contact@datanomics.app">Contact</a> • <a href="https://github.com/Taranjeet1-coder/FinSight-AI-financial-analysis/issues">Support</a> • <a href="https://datanomics.app/docs">Documentation</a>
 </div>
